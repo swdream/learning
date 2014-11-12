@@ -14,10 +14,10 @@ bên trong { }. Có các context chính:
 - http.
 - server.
 - location.
+
 cấu trúc: event > http> server> location.
 
 **#** hiển thị một comment line.
-===
 
 Serving Static Content
 ---------------------
