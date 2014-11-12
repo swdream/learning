@@ -1,5 +1,6 @@
 NGINX.
 ==========================
+Nginx là một open source reverse proxy server cho HTTP, HTTPS, SMTP...protocol.
 TUT này hướng dẫn bạn setuo một configuration file cho nginx.
 
 1. Configuration File’s Structure.
