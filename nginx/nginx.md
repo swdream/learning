@@ -4,8 +4,7 @@ TUT này hướng dẫn bạn setuo một configuration file cho nginx.
 
 1. Configuration File’s Structure.
 -----------------
-Nginx configuration file thường đặt tại ```/usr/local/nginx/conf```, ```/etc/nginx```, hoặc
-```/usr/local/etc/nginx```.
+Nginx configuration file thường đặt tại ```/usr/local/nginx/conf```, ```/etc/nginx```, hoặc ```/usr/local/etc/nginx```.
 
 Nginx configutation file bao gồm các modules, được điều khiển bởi các directives được quy định
 trong file cấu hình. Derectives được chia thành các simple directives và các
@@ -167,3 +166,6 @@ server này sẽ filter các request kết thúc với .gif, .jpg,.png và map c
 - nginx -s start: start nginx.
 - nginx -s reopen: reopen log file
 - ...
+
+Link tham khảo:
+[ http://nginx.org/en/docs/beginners_guide.html ]
