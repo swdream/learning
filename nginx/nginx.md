@@ -106,6 +106,7 @@ nginx -s reload
 Trong trường hợp nginx không làm việc, bạn có thể check log trong /var/log/nginx/...
 
 3. Thiết lập một proxy server đơn giản.
+--------------------------------
 Nginx thường xuyên được sử dụng như một proxy server.
 
 Chúng ta sẽ thực hiện config một proxy server đơn giản để làm ví dụ phân tích.
@@ -161,6 +162,7 @@ server này sẽ filter các request kết thúc với .gif, .jpg,.png và map c
 **/data/images** và pass tất cả các request đó tới proxied server ở trên.
 
 4. Một số lệnh hay dùng với nginx.
+----------------------------------------
 - nginx -s reload: load configuration file mới.
 - nginx -s stop: stop nginx.
 - nginx -s start: start nginx.
@@ -168,4 +170,5 @@ server này sẽ filter các request kết thúc với .gif, .jpg,.png và map c
 - ...
 
 Link tham khảo:
-[ http://nginx.org/en/docs/beginners_guide.html ]
+
+http://nginx.org/en/docs/beginners_guide.html
