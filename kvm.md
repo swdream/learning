@@ -42,6 +42,12 @@ Ví dụ về một command lines sẽ như sau:
        --c /mnt/virtual_machines/ubuntu-14.04.1-server-amd64.iso
 ```
 
+with ```network:default``` option, NAT network will be implemented by default. If you wanna use ```bridge network```, you can use:
+```
+-- network bridge=eth0
+-- network bridge=ethX
+```
+
 Sau đó quá trình install VM sẽ bắt đầu, bạn sẽ thao tác trên giao diện của VM.
 
 Mỗi lần một VM mới được tạo, sẽ có một file XML được tạo ra trong thư mục ```/etc/libvirt/qemu/```
@@ -63,7 +69,7 @@ virsh start VM_name
 **Delete VM.**
 ```
 virsh destroy guest_name
-virsh undefine guest_name.**
+virsh undefine guest_name
 ```
 **Truy cập vào máy ảo qua terminal.**
 ```
