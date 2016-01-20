@@ -39,10 +39,10 @@ Ví dụ về một command lines sẽ như sau:
        --network network:default \
        --accelerate \
        --vnc \
-       --c /mnt/virtual_machines/ubuntu-14.04.1-server-amd64.iso
+       --cdrom /mnt/virtual_machines/ubuntu-14.04.1-server-amd64.iso
 ```
 
-with ```network:default``` option, NAT network will be implemented by default. If you wanna use ```bridge network```, you can use:
+with ```network:default``` option, NAT network will be implemented by default. If you wanna use ```bridge network```, please do:
 ```
 -- network bridge=eth0
 -- network bridge=ethX
